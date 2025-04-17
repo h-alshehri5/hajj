@@ -1,0 +1,240 @@
+
+body{
+margin: 0;
+.lateef-extralight {
+  font-family: "Lateef", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.lateef-light {
+  font-family: "Lateef", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lateef-regular {
+  font-family: "Lateef", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lateef-medium {
+  font-family: "Lateef", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.lateef-semibold {
+  font-family: "Lateef", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.lateef-bold {
+  font-family: "Lateef", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lateef-extrabold {
+  font-family: "Lateef", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+}
+.header{
+background-color: #1c1c1c;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 50px;
+;
+}
+.logo{
+width: 100px;
+}
+.header-links a{
+color: #c29519;
+font-size: 15px;
+font-family: "cairo",sans-serif;
+padding: 0 15px;
+text-decoration: none;
+border-radius: 15px;
+}
+.header-links a:hover{
+    background-color:#5a3e27 ;
+}
+.header-links button{
+    background-color: #522e10;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: #1c1c1c;
+    border: none;
+}
+
+.landing-page{
+    background-color: #1c1c1c;
+    color: #c29519;
+    padding: 10px 50px;
+    border-radius: 0 0 50px 50px
+}
+.tickets-container{
+  padding: 10px 50px;
+}
+.tickets-header{
+  display: flex;
+  justify-content: space-between;
+  color: #c29519;
+  font-size: 30px;
+  font-family: "cairo",sans-serif;
+  padding: 15px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.tickets-header a{
+   color: #c29519;
+  text-decoration: none;}
+ 
+.tickets-header a:hover{
+  background-color:#85552f ;
+padding:0px 15px ;
+border-radius: 30px;
+}
+table {
+  border-collapse: collapse;
+  width: 80%; /* قللنا العرض */
+  margin: 20px auto; /* وسطنّا الجدول */
+  direction: rtl;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #f9f9f9;
+  color: black;
+  padding: 8px 12px;
+  text-align: right;
+  font-size: 17px;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  padding: 8px 12px;
+  text-align: right;
+  color: #c29519;
+  font-size: 15px;
+  line-height: 1.6;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+tr:hover td {
+  background-color: #fdf6ef;
+}
+video {
+  width: 80%;
+  max-width: 640px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 40px auto;
+  background-color: rgba(255, 223, 0, 0.2); /* ذهبي خفيف */
+  padding: 10px; /* إضافة مسافة بين الفيديو والحواف */
+}
+
+body.page1 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #000; /* خلفية الصفحة سودة */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* المركز التام في الصفحة */
+}
+
+/* الحاوية */
+.form-container {
+  width: 90%;
+  max-width: 400px;
+  padding: 30px;
+  background-color: #fff; /* خلفية المربعات بيضاء */
+  border-radius: 25px; /* حواف ناعمة للمربع */
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center; /* لضبط الحقول في المنتصف */
+}
+
+/* مربعات الإدخال */
+.form-container input {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px; /* حواف ناعمة جداً */
+  background-color: #f5f5f5; /* خلفية خفيفة للمربعات */
+  color: #333;
+  outline: none;
+  width: 100%; /* علشان يتوسع مع الحاوية */
+}
+
+/* النص داخل المربعات */
+.form-container input::placeholder {
+  color: #aaa;
+}
+
+/* زر تسجيل الدخول */
+.login-btn {
+  background: linear-gradient(145deg, #cfa300, #b48800);
+  color: #fff;
+  font-size: 18px; /* حجم الزر أصغر شوي */
+  font-weight: bold;
+  padding: 12px 30px; /* تصغير حجم الزر */
+  border: none;
+  border-radius: 15px; /* حواف ناعمة للزر */
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(255, 200, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: linear-gradient(145deg, #dab500, #a07c00);
+  transform: scale(1.05);
+}
+body.about-page {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #000; /* خلفية الصفحة سودة */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* الحاوية */
+.content {
+  text-align: center;
+  color: #FFD700; /* اللون الذهبي الفاتح للنص */
+  width: 80%;
+  max-width: 800px;
+}
+
+/* العنوان "من نحن؟" */
+.content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #b48800; /* اللون الذهبي الغامق */
+  margin-bottom: 20px;
+}
+
+/* التعريف عن الموقع */
+.definition {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFD700; /* اللون الذهبي الفاتح */
+  line-height: 1.6;
+  margin-top: 20px;
+}
